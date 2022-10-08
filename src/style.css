@@ -1,0 +1,102 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/045/450/original/rain.gif?1662302279);
+  background-attachment: fixed;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 10px 0 0 10px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+input {
+  background-color: #e8f4fd;
+  border: solid 3px #8ec9f9;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  color: #393e46;
+  text-decoration: none;
+}
+
+.card {
+  background-color: #f8f8f8;
+  border: solid 3px #6f6f70;
+  top: 20px;
+  left: -80px;
+}
+
+.conditions {
+  line-height: 2;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.current-weather {
+  background-color: #fff4e5;
+  border: solid 3px #ffca7d;
+  border-radius: 50%;
+  padding: 10px 40px;
+  position: absolute;
+  top: 90px;
+  right: 90px;
+  text-align: center;
+  font-size: 80px;
+}
+
+.date {
+  background-color: #f8fcff;
+  border: solid 3px #d9edfd;
+  font-weight: bold;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+
+.date:hover {
+  background-color: #ecf9f9;
+}
+
+.emoji {
+  font-size: 50px;
+}
+
+.location {
+  background-color: #fff;
+  border: solid 3px #e9ebee;
+  font-size: 20px;
+}
+
+.temperature {
+  position: relative;
+  top: -20px;
+  font-size: 25px;
+}
+
+.weather {
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+}
